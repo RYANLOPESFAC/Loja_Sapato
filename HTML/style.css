@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(./FUNDO/FUNDO.jpg);
+    background-image: url(..//Clones/FUNDO/FUNDO.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
