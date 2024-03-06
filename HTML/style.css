@@ -105,3 +105,30 @@ h2 {
 .social-media a {
     margin-left: 10px;
 }
+
+
+
+.conteudo2 {
+    display: flex;
+    justify-content: space-around; /* Distribui o espaço ao redor dos itens, fazendo-os ficarem lado a lado */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.camisa1 {
+    width: 55%; /* Ajusta a largura da imagem para ocupar 45% do contêiner */
+    height: auto;
+}
+
+.p1nike {
+    text-align: center;
+    margin-top: 10px;
+    width: 45%; /* Ajusta a largura do parágrafo para ocupar 45% do contêiner */
+}
+
+.p1nike{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 25px;
+}
+
