@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 165, 222, 0.434);
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#cabecalho {
+    margin: 0;
+    font-size: 30px;
+}
+
+#bemvindo {
+    margin: 0;
+    font-size: 20px;
+}
+
+#camiseta{
+    border: 3px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#feminina1{
+    width: 300px; 
+    height: auto;
+}
+
+#pfm{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* div1 */
+#feminina1,
+#feminina1{
+    display: inline-block;
+    width: 296px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#pfm,
+#pfm{
+    display: inline-block;
+    vertical-align: top;
+}
+/* div1 */
+
