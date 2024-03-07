@@ -22,24 +22,50 @@ header {
     font-size: 20px;
 }
 
-#camiseta{
+#camiseta {
     border: 3px solid rgb(0, 0, 0);
-    color:rgb(0, 0, 0);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 25px;
 }
 
-#pfm{
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: inline-block;
-    vertical-align: top;
+#feminina1{
+    width: 250px;
+    height: auto;
+    margin-right: 5px;
 }
 
-#feminina1{
+
+#pfm {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-block;
-    width: 300px;
-    height: auto;
-    margin-right: 10px;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 20px; /* Adicionado espaço entre as imagens e parágrafos */
+}
+
+#conteudo1,
+#conteudo2,
+#conteudo3,
+#conteudo4,
+#conteudo5,
+#conteudo6,
+#conteudo7 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#conteudo1 h3,
+#conteudo2,
+#conteudo3,
+#conteudo4,
+#conteudo5,
+#conteudo6,
+#conteudo7  {
+    width: 100%;
+    text-align: center;
 }
