@@ -30,29 +30,16 @@ header {
     font-size: 25px;
 }
 
-#feminina1{
-    width: 300px; 
-    height: auto;
-}
-
 #pfm{
     font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-/* div1 */
-#feminina1,
-#feminina1{
-    display: inline-block;
-    width: 296px;
-    height: auto;
-    margin-right: 10px;
-}
-
-#pfm,
-#pfm{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-block;
     vertical-align: top;
 }
-/* div1 */
 
+#feminina1{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+}
