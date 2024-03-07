@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(141, 183, 214, 0.434);
+}
+header {
+    background-color: #000000;/*cor de fundo*/
+    color: #fff;/*cor das letras*/
+    text-align: center;/*alinhado para o centro*/
+    padding: 20px; /* tamanho de faixa */
+}
+#cabecalho {
+    margin: 0;
+    font-size: 30px; /*tamanho da fonte*/
+}
+
+#bemvindo {
+    margin: 0; /*margem é o espaço ao redor do elemento*/
+    font-size: 20px;
+}
+
+#camiseta{
+    border: 3px solid rgb(0, 0, 0);/*bordas*/
+    color:rgb(0, 0, 0);/*cor fonte*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/*fonte letra*/
+    text-align: center;/*texto para o centro*/
+    font-size: 25px;/*tamanho fonte*/
+}
+
+#descriçao{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+}
+#camisa{
+    display: inline-block;/*elementos aparecerão na mesma linha,*/
+    width: 300px;/*largura do elemento*/
+    height: auto;/*Define a altura do elemento como automática*/
+    margin-right: 10px; /*Define a margem direita do elemento*/
+}
+
