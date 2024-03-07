@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -30,58 +30,16 @@ header {
     font-size: 25px;
 }
 
-#camisa1{
-    width: 300px; 
-    height: auto;
-}
-
 #p1nike{
     font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    vertical-align: top;
 }
 
-/* div1 */
-#camisa1,
 #camisa1{
     display: inline-block;
     width: 300px;
     height: auto;
     margin-right: 10px;
 }
-
-#p1nike,
-#p1nike{
-    display: inline-block;
-    vertical-align: top;
-}
-/* div1 */
-
-/* div2 */
-#camisa1,
-#camisa1{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    margin-right: 10px;
-}
-
-#p1nike,
-#p1nike{
-    display: inline-block;
-    vertical-align: top;
-}
-/* div2 */
-
-#camisa1,
-#camisa1{
-    display: inline-block;
-    width: 300px;
-    height: auto;
-    margin-right: 10px;
-}
-
-#p1nike,
-#p1nike{
-    display: inline-block;
-    vertical-align: top;
-  }
