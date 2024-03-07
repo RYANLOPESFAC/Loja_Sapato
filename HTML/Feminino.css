@@ -46,26 +46,14 @@ header {
     margin-bottom: 20px; /* Adicionado espaço entre as imagens e parágrafos */
 }
 
-#conteudo1,
-#conteudo2,
-#conteudo3,
-#conteudo4,
-#conteudo5,
-#conteudo6,
-#conteudo7 {
+#conteudo1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-#conteudo1 h3,
-#conteudo2,
-#conteudo3,
-#conteudo4,
-#conteudo5,
-#conteudo6,
-#conteudo7  {
+#conteudo1 h3 {
     width: 100%;
     text-align: center;
 }
