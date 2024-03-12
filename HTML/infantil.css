@@ -107,7 +107,13 @@ h3{
     font-size: 25px;
 }
 
-#conteudo1 {
+#conteudo1,
+#conteudo2,
+#conteudo3,
+#conteudo4,
+#conteudo5,
+#conteudo6,
+#conteudo7{
     display: flex;
     justify-content: space-around; /* Distribui os elementos igualmente na linha */
     align-items: center; /* Centraliza verticalmente os elementos */
@@ -119,7 +125,7 @@ h3{
     height: auto;
 }
 
-.imagem-produto {
+.imagem-produto{
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
 }
 

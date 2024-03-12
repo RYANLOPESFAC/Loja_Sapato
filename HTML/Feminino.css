@@ -101,33 +101,44 @@ main {
 
 /* Conteúdo Feminino */
 
-#conteudo1 {
-    text-align: center;
-    margin-top: 30px;
-}
-
-#camiseta {
-    border: 3px solid rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 25px;
-    margin-bottom: 20px;
 }
 
-#pfm {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: inline-block;
-    vertical-align: top;
+#conteudo1,
+#conteudo2,
+#conteudo3,
+#conteudo4,
+#conteudo5,
+#conteudo6,
+#conteudo7{
+    display: flex;
+    justify-content: space-around; /* Distribui os elementos igualmente na linha */
+    align-items: center; /* Centraliza verticalmente os elementos */
 }
 
-#feminina1 {
-    display: inline-block;
+.produto {
+    text-align: center;
     width: 300px;
     height: auto;
-    margin-right: 10px;
 }
+
+.imagem-produto {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+}
+
+.produto {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px; /* Ajuste a margem superior conforme necessário */
+}
+
+.descricao{
+    margin-top: 10px; /* Ajuste a margem superior conforme necessário */
+}
+
 
 footer {
     text-align: center;
