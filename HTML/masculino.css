@@ -108,12 +108,17 @@ h3{
     font-size: 25px;
 }
 
-#conteudo1{
+#conteudo1,
+#conteudo2,
+#conteudo3,
+#conteudo4,
+#conteudo5,
+#conteudo6,
+#conteudo7{
     display: flex;
     justify-content: space-around; /* Distribui os elementos igualmente na linha */
     align-items: center; /* Centraliza verticalmente os elementos */
 }
-
 .produto {
     text-align: center;
     width: 300px;
