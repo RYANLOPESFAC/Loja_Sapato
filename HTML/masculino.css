@@ -108,11 +108,7 @@ h3{
     font-size: 25px;
 }
 
-#conteudo1,
-#conteudo2,
-#conteudo3,
-#conteudo4,
-#conteudo5{
+#conteudo1{
     display: flex;
     justify-content: space-around; /* Distribui os elementos igualmente na linha */
     align-items: center; /* Centraliza verticalmente os elementos */
