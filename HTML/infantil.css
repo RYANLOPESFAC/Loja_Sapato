@@ -15,10 +15,9 @@ header {
     background-color: #000000;
     color: #fff;
     text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+    position:fixed top;
+    
+     /* Ajuste para evitar sobreposição com a barra de menu */
 }
 
 #Menu {
@@ -123,16 +122,13 @@ h3{
     text-align: center;
     width: 300px;
     height: auto;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px; /* Ajuste a margem superior conforme necessário */  
 }
 
 .imagem-produto{
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-}
-
-.produto {
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 10px; /* Ajuste a margem superior conforme necessário */
 }
 
 .descricao{

@@ -119,20 +119,17 @@ h3{
     justify-content: space-around; /* Distribui os elementos igualmente na linha */
     align-items: center; /* Centraliza verticalmente os elementos */
 }
+
 .produto {
     text-align: center;
     width: 300px;
     height: auto;
-}
-
-.imagem-produto {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-}
-
-.produto {
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 10px; /* Ajuste a margem superior conforme necessário */
+    margin-top: 10px; /* Ajuste a margem superior conforme necessário */  
+}
+.imagem-produto {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
 }
 
 .descricao{
