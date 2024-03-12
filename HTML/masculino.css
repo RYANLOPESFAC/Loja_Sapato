@@ -99,6 +99,9 @@ main {
     background-color: #000;
 }
 
+/*apartir de conteudo pode mudar. */
+
+
 #conteudo1 {
     text-align: center;
     margin-top: 30px;
@@ -126,6 +129,10 @@ main {
     height: auto;
     margin-right: 10px;
 }
+
+
+/* Aqui final do site como roda pé */
+
 
 footer {
     text-align: center;
