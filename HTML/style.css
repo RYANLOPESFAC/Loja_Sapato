@@ -89,9 +89,9 @@ header {
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 20px;
-    color: gold;
+    color: rgba(255, 255, 255, 0.837);
     font-weight: 300;
 }
 
@@ -108,27 +108,28 @@ h2 {
 
 
 
-.conteudo2 {
+.conteudo1 {
     display: flex;
-    justify-content: space-around; /* Distribui o espaço ao redor dos itens, fazendo-os ficarem lado a lado */
-    align-items: center;
-    margin-top: 20px;
+    justify-content: space-around; /* Distribui os elementos igualmente na linha */
+    align-items: center; 
 }
 
-.camisa1 {
-    width: 55%; /* Ajusta a largura da imagem para ocupar 45% do contêiner */
-    height: auto;
+.imagem {
+    
+    max-width: 90%;
 }
 
-.p1nike {
+.descricao{
+    margin-top: 10px; /* Ajuste a margem superior conforme necessário */
+}
+
+.produto {
     text-align: center;
-    margin-top: 10px;
-    width: 45%; /* Ajusta a largura do parágrafo para ocupar 45% do contêiner */
-}
-
-.p1nike{
+    width: 300px;
+    height: auto;
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 25px;
+    margin-top: 10px; /* Ajuste a margem superior conforme necessário */  
 }
+
 
