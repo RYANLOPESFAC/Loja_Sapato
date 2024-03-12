@@ -2,42 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-}
-
-#Menu {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    text-decoration: none;
-    color: #fff;
-    display: flex;
-    align-items: center;
-}
-
-.logo-img {
-    width: 40px;
-    height: auto;
-}
-
-.logo-text {
-    font-size: 1.5rem;
-    margin-left: 10px;
-}
-
-#pag ul {
-    list-style: none;
-    display: flex;
-}
-
-#pag li {
-    margin-right: 20px;
+    background-color: rgba(136, 137, 141, 0.522);
 }
 
 a {
@@ -45,9 +10,80 @@ a {
     color: #fff;
 }
 
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    margin-top: 0;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 40%;
+    height: auto;
+}
+
+.logo-text {
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+#pag {
+    display: flex;
+    align-items: center;
+}
+
+#pag ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centraliza os itens na horizontal */
+}
+
+#pag li {
+    margin-right: 180px; /* Ajuste a margem conforme necessário */
+    text-align: center; /* Centraliza o texto dentro de cada item da lista */
+}
+
+
+#pag a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    margin-top: 70px; /* Adicionando margem ao main para separá-lo do header */
+}
+
 .container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 150px auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px white;
@@ -56,11 +92,18 @@ a {
 h1 {
     font-size: 2rem;
     color: #333;
+    margin-left: 255px;
 }
 
 p {
     font-size: 1rem;
     color: #555;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-left: 335px;
 }
 
 .contact-info {
@@ -71,10 +114,15 @@ p {
 
 .contact-info div {
     text-align: center;
+    flex: 1; /* Faz com que as divs tenham o mesmo tamanho */
+}
+
+.comment-section {
+    text-align: center;
 }
 
 textarea {
-    width: 100%;
+    width: calc(100% - 20px);
     height: 100px;
     margin-top: 10px;
 }
@@ -91,7 +139,6 @@ textarea {
     border-radius: 5px;
 }
 
-/* Ajuste a cor do WhatsApp */
 .contact-info div a {
     color: #000;
 }

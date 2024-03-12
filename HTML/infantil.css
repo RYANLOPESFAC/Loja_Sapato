@@ -1,43 +1,140 @@
+/* Adicione aqui suas estilizações específicas */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgba(141, 183, 214, 0.434);
+    background-color: rgba(136, 137, 141, 0.522);
 }
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 header {
-    background-color: #000000;/*cor de fundo*/
-    color: #fff;/*cor das letras*/
-    text-align: center;/*alinhado para o centro*/
-    padding: 20px; /* tamanho de faixa */
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
+
+#Menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    margin-top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo-img {
+    width: 40%;
+    height: auto;
+}
+
+.logo-text {
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+#pag {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#pag ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#pag li {
+    margin-right: 20px;
+}
+
+#pag a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.social-media a {
+    margin-left: 10px;
+}
+
 #cabecalho {
     margin: 0;
-    font-size: 30px; /*tamanho da fonte*/
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
 }
 
 #bemvindo {
-    margin: 0; /*margem é o espaço ao redor do elemento*/
+    margin: 0;
     font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
 }
 
-#camiseta{
-    border: 3px solid rgb(0, 0, 0);/*bordas*/
-    color:rgb(0, 0, 0);/*cor fonte*/
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/*fonte letra*/
-    text-align: center;/*texto para o centro*/
-    font-size: 25px;/*tamanho fonte*/
+#camiseta {
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
-#descriçao{
+.conteudo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.camisa {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.descricao {
     font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-block;
     vertical-align: top;
 }
-#camisa{
-    display: inline-block;/*elementos aparecerão na mesma linha,*/
-    width: 300px;/*largura do elemento*/
-    height: auto;/*Define a altura do elemento como automática*/
-    margin-right: 10px; /*Define a margem direita do elemento*/
+
+footer {
+    text-align: center;
+    margin-top: 50px;
 }
 
+footer a {
+    text-decoration: none;
+    color: #000;
+}
