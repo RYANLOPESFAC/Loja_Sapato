@@ -81,11 +81,11 @@ header {
 }
 
 .main-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 10% 20px 20px;
+    display: flex; /*pertime ser organizado em linhas ou colunas*/
+    align-items: center; /* Centraliza verticalmente os elementos dentro do contêiner */
+    flex-direction: column; /* Define a direção do layout como coluna, organizando os elementos verticalmente */
+    width: 100%;/* Define a largura do elemento como 100%*/
+    padding: 10% 20px 30px;/* Define o preenchimento (padding) do elemento */
 }
 
 h1 {
@@ -131,21 +131,21 @@ h1 {
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px; /* Ajuste a margem superior conforme necessário */  
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;/* Adiciona uma transição suave */
 }
 .produto:hover{
-    transform: scale(1.1);    
+    transform: scale(1.1);   /* Aumenta o tamanho do produto em 10% ao passar o mouse sobre ele */ 
 }
 
 
 .banner {
-    width: 100%;
-    max-width: 90%;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.655);
-    transition: transform 0.3s ease-in-out;
+    max-width: 90%;/* Define a largura máxima do banner como 90% da largura do contêiner pai */
+    border-radius: 8px;/*arredondar as bordas do banner */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.655);/* Adiciona uma sombra ao banner*/
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave de 0.3 segundos ao efeito de transformação */
 }
+
 .banner:hover {     
-transform: scale(1.1); /* Ajuste o valor conforme necessário para o zoom desejado */
+transform: scale(1.1); /* Aumenta o tamanho do banner em 10% ao passar o mouse sobre ele */
 }
 
