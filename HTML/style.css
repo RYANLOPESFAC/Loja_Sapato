@@ -90,9 +90,9 @@ header {
 
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-    font-weight: 300;
+    margin-bottom: 20px;/* Define a margem inferior do cabeçalho como 20 pixels */
+    color: rgb(255, 255, 255); /*COR*/
+    
 }
 
 
